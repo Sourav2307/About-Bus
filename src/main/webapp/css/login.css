@@ -1,0 +1,121 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/photo1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+
+h1{
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+.login{
+	width: 382px;
+	margin: auto;
+	padding: 80px;
+	background-color: transparent;
+	border-radius: 15px;
+}
+
+label{
+	color: #08ffd1;
+	font-size: 17px;
+}
+
+#uname{
+	width: 300px;
+	height: 30px;
+	padding-left: 8px;
+	border-color:white;
+	background-color: transparent;
+	color: white;
+}
+
+#pas{
+	width: 300px;
+	height: 30px;
+	padding-left: 8px;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+
+
+}
+
+#submit{
+	width: 300px;
+	height: 30px;
+	padding-left: 7px;
+	border: none;
+	border-radius: 17px;
+	color: blue;
+	
+}
+
+#submit:hover{
+	background-color: skyblue;
+	color: #000;
+}
+
+span{
+	color: white;
+	font-size: 17px;
+	font-style: italic;
+	font-family: Times;
+}
+
+.forget{
+	color: white;
+	font-style: italic;
+}
+
+a{
+	color: red;
+	font-style: italic;
+
+
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	padding-left: 47%;
+	margin-bottom: -50px;
+}
+
+.title{
+	position: absolute;
+	top: 48%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 600px;
+	padding-left:28%;
+}
+
+
+.logo img{
+	float: left;
+	padding-left: 0%;
+	width: 60px;
+	height: auto;
+	margin-top: 20px;
+
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}

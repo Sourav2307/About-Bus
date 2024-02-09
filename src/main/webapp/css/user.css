@@ -1,0 +1,161 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Arial';
+}
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/photo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position:center;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+}
+
+
+h1{
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+
+.login{
+	position: absolute;
+	width: 382px;
+ padding: 80px;
+  padding-left: 40%;
+	background-color: transparent;
+	border-radius: 15px;
+  justify-content: center;
+  top:25%;
+
+
+}
+
+label{
+	color: #08ffd1;
+	font-size: 17px;
+}
+
+#uname{
+	width: 300px;
+	height: 30px;
+	padding-left: 8px;
+	border-color:white;
+	background-color: transparent;
+	color:white;
+}
+
+#pas{
+	width: 300px;
+	height: 30px;
+	padding-left: 8px;
+	border-color: white;
+	background-color: transparent;
+
+
+}
+
+#submit{
+  width: 100px;
+	height: 30px;
+	border: none;
+	border-radius: 17px;
+	color: blue;
+	margin-left: 10px;
+
+	
+}
+
+#submit:hover{
+	background-color: skyblue;
+	color: #000;
+}
+
+span{
+	color: white;
+	font-size: 17px;
+	font-style: italic;
+	font-family: Times;
+}
+
+.forget{
+	color: white;
+	font-style: italic;
+}
+
+a{
+	color: white;
+	font-style: italic;
+
+
+
+}
+
+img{
+	width: 80px;
+	height: 80px;
+	padding-left: 47%;
+	margin-bottom: -50px;
+}
+
+
+
+
+.logo img{
+	float: left;
+	padding-left: 0%;
+	width: 60px;
+	height: auto;
+	margin-top: 20px;
+
+}
+
+.main{
+	max-width: 1400px;
+	margin: auto;
+}
+
+title1 h1{
+	top: 30px;
+	color: white;
+	font-size: 30px;
+	margin-left: 8%;
+	position: relative;
+}
+
+
+.title{
+	position: absolute;
+	top: 48%;
+	transform: translate(-50%,-50%);
+	padding-bottom: 600px;
+	padding-left:28%;
+}
+
+.Welcome{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.Welcome h1{
+	color: #fff;
+	font-size:35px;
+	padding-bottom: 540px;
+}
+.login input{
+	background-color: white;
+	
+}
